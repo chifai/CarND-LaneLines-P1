@@ -19,6 +19,7 @@ The goals / steps of this project are the following:
 6. Add weight to the image
 
 **Methodology of ***draw_lines()*** function**
+
 The goal is to find and draw only two lines: left and right lanes.
 1. Classify all lines to either left or right lanes, by putting a condition: slope either greater than 0.5 or smaller than -0.5. The rest of the lines are discarded.
 2. Take average on the coordinates of two groups of lines respectively to obtain two presumedly perfect lines.
@@ -27,6 +28,7 @@ The goal is to find and draw only two lines: left and right lanes.
 ### 2. Potential Shortcomings
 
 **Lane lines deviate vigorously in Challenge video**
+
 Due to the shadow, tyre marks, and a greater curvature of lanes, perfect straight lane lines are harder to find in Challenge video.
 
 ### 3. Suggested Improvements
